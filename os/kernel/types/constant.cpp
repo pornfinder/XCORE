@@ -1,0 +1,58 @@
+#pragma once
+
+/* Fixed-width integer types */
+#define UINT8_MAX  0xFF
+#define UINT8_MIN  0x00
+#define UINT16_MAX 0xFFFF
+#define UINT16_MIN 0x0000
+#define UINT32_MAX 0xFFFFFFFF
+#define UINT32_MIN 0x00000000
+#define UINT64_MAX 0xFFFFFFFFFFFFFFFFULL
+#define UINT64_MIN 0x0000000000000000ULL
+
+#define INT8_MAX   0x7F
+#define INT8_MIN   (-0x7F - 1)
+#define INT16_MAX  0x7FFF
+#define INT16_MIN  (-0x7FFF - 1)
+#define INT32_MAX  0x7FFFFFFF
+#define INT32_MIN  (-0x7FFFFFFF - 1)
+#define INT64_MAX  0x7FFFFFFFFFFFFFFFLL
+#define INT64_MIN  (-0x7FFFFFFFFFFFFFFFLL - 1)
+
+/* Standard integer types */
+#define UCHAR_MAX  0xFF
+#define UCHAR_MIN  0x00
+#define CHAR_MAX   0x7F
+#define CHAR_MIN   (-0x7F - 1)
+
+#define USHRT_MAX  0xFFFF
+#define USHRT_MIN  0x0000
+#define SHRT_MAX   0x7FFF
+#define SHRT_MIN   (-0x7FFF - 1)
+
+#define UINT_MAX   0xFFFFFFFF
+#define UINT_MIN   0x00000000
+#define INT_MAX    0x7FFFFFFF
+#define INT_MIN    (-0x7FFFFFFF - 1)
+
+#define ULONG_MAX  0xFFFFFFFFUL
+#define ULONG_MIN  0x00000000UL
+#define LONG_MAX   0x7FFFFFFFL
+#define LONG_MIN   (-0x7FFFFFFFL - 1)
+
+#define ULLONG_MAX 0xFFFFFFFFFFFFFFFFULL
+#define ULLONG_MIN 0x0000000000000000ULL
+#define LLONG_MAX  0x7FFFFFFFFFFFFFFFLL
+#define LLONG_MIN  (-0x7FFFFFFFFFFFFFFFLL - 1)
+
+/* 64-bit types (alternative names) */
+#define UINT64_MAX 0xFFFFFFFFFFFFFFFFULL
+#define UINT64_MIN 0x0000000000000000ULL
+#define INT64_MAX  0x7FFFFFFFFFFFFFFFLL
+#define INT64_MIN  (-0x7FFFFFFFFFFFFFFFLL - 1)
+
+#define NULL ((void*)0)
+#define NULLPTR nullptr
+
+#define KERNEL_BASE 0x100000
+#define VIDEO_MEMORY 0xB8000
